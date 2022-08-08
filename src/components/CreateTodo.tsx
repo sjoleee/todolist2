@@ -12,10 +12,6 @@ function CreateTodo() {
   const [todos, setTodos] = useRecoilState(todoState);
   const category = useRecoilValue(categoryState);
 
-  useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos]);
-
   const onValid = (data: IForm) => {
     setTodos((prev) => [
       { id: Date.now(), text: data.todo, category },
