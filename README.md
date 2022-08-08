@@ -1,46 +1,14 @@
-# Getting Started with Create React App
+# TodoList 만들기 : 복습
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+간단한 TodoList 만들기를 복습했습니다.
+공부한 내용을 정리하여 블로그에 게시했습니다.
+[블로그 글 읽으러가기](https://velog.io/@sjoleee_/React-todolist-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+React, TypeScript, Recoil을 사용했습니다.
 
-## Available Scripts
+## 요구사항
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 할 일 등록 & 삭제
+- 할 일은 할 것(TO_DO), 하는 중(DOING), 끝(DONE)으로 상태를 나눌 것
+- 할 일 목록에서 드롭다운으로 상태를 선택하고, 선택된 상태에 해당하는 할 일들만 보여줄 것
+- 할 일들의 상태를 변경 가능하게 할 것
+- Localstorage에 할 일을 저장할 것
