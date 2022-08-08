@@ -1,9 +1,8 @@
 # TodoList 만들기 : 복습
 
-간단한 TodoList 만들기를 복습했습니다.
-공부한 내용을 정리하여 블로그에 게시했습니다.
-[블로그 글 읽으러가기](https://velog.io/@sjoleee_/React-todolist-%EB%A7%8C%EB%93%A4%EA%B8%B0)
-React, TypeScript, Recoil을 사용했습니다.
+- 간단한 TodoList 만들기를 복습했습니다.
+- 공부한 내용을 정리하여 블로그에 게시했습니다.[블로그 글 읽으러가기](https://velog.io/@sjoleee_/React-todolist-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- React, TypeScript, Recoil을 사용했습니다.
 
 ## 요구사항
 
